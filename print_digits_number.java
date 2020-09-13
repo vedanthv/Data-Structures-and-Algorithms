@@ -1,3 +1,4 @@
+import java.util.*;
 public class print_digits_number {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
