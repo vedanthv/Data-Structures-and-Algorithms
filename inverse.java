@@ -8,6 +8,8 @@ public class inverse {
         int n = scn.nextInt();
         int inv = 0; //inverted number
         int op = 1; //op is original place
+        int inv = 0; //inverted digit
+        int op = 1; //op is original place(it is the counter that runs throught the number off digits)
         while (n != 0) {
             int od = n % 10; //od is the original digit
             int id = op; //id is the inverted digit
