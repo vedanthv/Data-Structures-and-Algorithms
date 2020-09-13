@@ -18,9 +18,7 @@ public static void main(String[] args) {
         }
         
         if(count == 0){
-            System.out.println("prime");
-        else{
-            print("not prime");
+            System.out.println(n);
         }
     }
  }
