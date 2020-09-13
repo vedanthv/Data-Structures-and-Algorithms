@@ -18,7 +18,7 @@ public static void main(String[] args) {
         }
         
         if(count == 0){
-            System.out.println(n);
+            System.out.println(num);
         }
     }
  }
