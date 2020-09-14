@@ -19,10 +19,9 @@ public static void main(String[] args) {
   k = k % dig;
   /*if the number of rotations is 352 times on a number
   and the number is a five digit number we get the same number on 
-  rotating every five times. So until 350(5*70) we get the same number
-  then we rotate only two times*/
-  
-  //if k < 0
+  rotating every five times(every 1st and 5th rotation is same for 5 digit number). So the 350th rotation
+  is the same as the first rotation then we rotate only two times till the total number of rotations is 352*/
+
   if(k < 0)
   {
       k = k+ dig;
@@ -32,22 +31,23 @@ public static void main(String[] args) {
   }
   int div = 1;//divisor
   int multi = 1;//multiplier
-  //now we have to find the div and multiplier
+  //now we have to find the divisor and multiplier
   for(int i=1;i<=dig;i++){
       if(i<=k){
           div = div * 10; 
-          /*we have to se the divisor with the same
+          /*we have to set the divisor with the same
           no of zeros as present in the number*/
           }else{
               multi = multi * 10; 
-              //from k to dig iteration the 
+              //from k to the last iteration the 
               //multiplier gets multiplied
           }
           
   }
   int q = n / div; //the quotient
   int r = n % div; //the remainder
-  r = r * multi + q;
+ int rotated = r * multi + q; //rotated number
+ System.out.println(rotated);
 }
 }
 
