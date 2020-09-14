@@ -9,8 +9,8 @@ public class gcd_and_lcm {
         int num1 = scn.nextInt();
         int num2 = scn.nextInt();
 
-        int tnum1 = num1;
-        int tnum2 = num2;
+        int tnum1 = num1; // temp var to store the num1 to calculate the lcm
+        int tnum2 = num2; // temo variable to store the num2 to calculate the lcm
 
         while(tnum1 % tnum2 != 0){ //until the remainder does not become 0
             int rem = tnum1 % tnum2; //tnum1 is the dividend and tnum2 is the divisor
