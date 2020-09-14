@@ -12,7 +12,7 @@ public class pattern3 {
         for(int i=1;i<=n;i++)
         { //runs as many times as  n
             for(int j=1;j<=sp;j++)
-            { //prints spaces as times as the value of sp which keeps decreasing
+            { //prints spaces as many times as the value of sp variable which keeps decreasing with no of iterations
                 System.out.print("\t");
             }
 
