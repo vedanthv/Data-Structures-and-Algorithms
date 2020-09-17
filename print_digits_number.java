@@ -22,7 +22,7 @@ public class print_digits_number {
         https://www.youtube.com/watch?v=gZp776a-pbQ */
         int quotient = n/ divisor;
         System.out.println(quotient);
-        n = n % divisor;
+        n = n % divisor;  //n % divisor is the remainder
         divisor = divisor / 10;
     }
 }
