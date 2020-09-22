@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.*;
 public class pattern5{
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.*;
 public class pattern6 {
     /*There are three parts to this pattern:
