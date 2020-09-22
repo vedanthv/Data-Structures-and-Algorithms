@@ -1,7 +1,7 @@
 package Patterns;
 
 /**
- * pattern2
+ * pattern2--->revrse of pattern 1
  */
 import java.util.*;
 public class pattern2 {

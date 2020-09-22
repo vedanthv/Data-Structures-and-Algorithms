@@ -19,7 +19,7 @@ public class pattern3 {
             }
 
             for(int j=1;j<=st;j++)
-            { //prints stars as times as the value of st which keeps increasing and give tabs in the end of each iteration
+            { //prints stars as times as the value of st which keeps increasing and give tab spaces in the end of each iteration
                 System.out.print("*\t");
             }
             sp--; //decrease npaces by 1
