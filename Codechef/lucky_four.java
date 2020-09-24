@@ -9,19 +9,25 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-        // your code goes here
-        int ans = 0;
-        int rem = 0;
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        while(n != 0)
-        {
-            r = n % 10;
-            n = n / 10;
-            if(r == 4)
-            {
-                ans++;
-            }
-        }
+		// your code goes here
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		int[] a=new int[n];
+		for(int i=0;i<n;i++)
+		{
+		    a[i]=s.nextInt();
+		}
+		for(int i=0;i<n;i++)
+		{
+		    int r=0,count=0;
+		    while(a[i]!=0)
+		    {
+		     r=a[i]%10;
+		     if(r==4)
+		     count++;
+		     a[i]/=10;
+		    }
+		    System.out.println(count);
+		}
 	}
 }
