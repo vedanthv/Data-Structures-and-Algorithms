@@ -13,7 +13,7 @@ public class pattern5{
             {
                 System.out.print("\t");//controls the spaces
             }
-            for(int j=1;j<=st;j++)
+            for(int j=1;j<=st;j++) //control the stars
             {
                 System.out.print("*\t");
             }
