@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class function_example {
     public static int square(int x)
     {
@@ -8,7 +8,9 @@ public class function_example {
     
 public static void main(String[] args)
 {
-    int square = square(4);
+    Scanner scn = new Scanner(System.in);
+    int n = scn.nextInt();
+    int square = square(n);
     System.out.println(square);
 }
     
